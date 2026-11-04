@@ -7,22 +7,7 @@ It is defined in `environment.yml` (conda environment `cm2003-lab1`, Python 3.12
 
 ### On MAIA (JupyterHub)
 
-1. Clone this repository in your workspace. Open a terminal (File > New > Terminal) and run:
-   ```bash
-   git clone <your-repository-url>
-   cd lab-1
-   ```
-2. Run the setup script. It creates the conda environment, registers it as a Jupyter kernel and
-   downloads the CIFAR-10 dataset (about 170 MB) into `cm2003/datasets/`:
-   ```bash
-   ./setup.sh
-   ```
-   This takes a few minutes. You only need to do it once; your home folder is persistent.
-3. Refresh the JupyterHub browser tab, open a notebook and select the kernel **CM2003 Lab 1**
-   (Kernel > Change kernel).
-4. Check that it works by running the first cell of `simple_nn.ipynb`.
-
-If you connect with SSH or VS Code instead, activate the environment with `conda activate cm2003-lab1`.
+Activate the DL-Labs-GPU
 
 ### On your own computer
 
@@ -31,7 +16,7 @@ Install [Miniforge](https://github.com/conda-forge/miniforge) (or any conda inst
 in the Miniforge Prompt:
 ```bash
 conda create -n cm2003-lab1 --override-channels -c conda-forge python=3.12 numpy=1.26.4 scipy=1.14.0 matplotlib=3.8.4 pandas=2.2.2 scikit-learn=1.5.1 imageio=2.35.0 future six ipykernel
-conda activate cm2003-lab1
+conda activate cm2003-lab1 
 python -m ipykernel install --user --name=cm2003-lab1 --display-name "CM2003 Lab 1"
 ```
 and download CIFAR-10 from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz, extracting it into

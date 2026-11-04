@@ -1,0 +1,16 @@
+name: cm2003-lab1
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - numpy=1.26.4
+  - scipy=1.14.0
+  - matplotlib=3.8.4
+  - pandas=2.2.2
+  - scikit-learn=1.5.1
+  - imageio=2.35.0
+  - future
+  - six
+  - ipykernel
+  - wget

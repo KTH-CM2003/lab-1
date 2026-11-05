@@ -12,7 +12,7 @@ You need two things:
 
 Pick **one** of the options below.
 
-### Option 1: On MAIA
+### Option 1: On MAIA (KTH workspace - need to join GPU group and follow setup instructions for this separately.)
 
 Your MAIA workspace already has a ready-made environment called **`DL_labs_GPU`**, so there is
 nothing to install.

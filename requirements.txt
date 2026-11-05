@@ -1,0 +1,10 @@
+# Lab 1 Python packages (same versions as environment.yml), for uv or pip.
+numpy==1.26.4
+scipy==1.14.0
+matplotlib==3.8.4
+pandas==2.2.2
+scikit-learn==1.5.1
+imageio==2.35.0
+future
+six
+ipykernel

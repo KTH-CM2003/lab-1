@@ -65,12 +65,4 @@ The notebook softmax.ipynb will walk you through implementing the Softmax classi
 * Hand-written derivations for the implementations of the: Affine-forward, Affine-backward, ReLU forward, ReLU-backward.
 
 
-
-
-## BONUS points
-At the lab session after the hand-in of this Lab, you have a chance to get up to **2** bonus points for presenting a part of the solution. Specifically:
-* Simple neural network notebook
-* Two-layer-net notebook
-* Math derivations of forward/back prop 
-
-Each presentation will be approximately 5-10 minutes and consist of you going through your solution together as a group and answering any clarifying questions. 
+ 

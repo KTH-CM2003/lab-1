@@ -12,7 +12,7 @@ You need two things:
 
 Pick **one** of the options below.
 
-### Option 1: On MAIA (recommended)
+### Option 1: On MAIA
 
 Your MAIA workspace already has a ready-made environment called **`DL_labs_GPU`**, so there is
 nothing to install.
